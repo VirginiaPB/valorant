@@ -1,0 +1,306 @@
+h1, h2, h3, p,h6 {
+color: white;
+text-align: center;
+color: white;
+margin: 10px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+padding: 25px; 
+}
+* {
+margin: 0 auto;
+padding: 0px;
+box-sizing: border-box;
+}
+.tituloprincipal{
+    color: white;
+    display: flex;
+}
+.valo {
+text-align: center;
+background-color: black;
+color: white;
+}
+.cajas{
+display: inline-table;
+flex-wrap: wrap;
+}
+.cajas{
+display: flex;
+}
+.cajas{
+justify-content: center;
+
+}
+.caja{
+background-color: rgb(202, 48, 48);
+border: 2px rgb(40, 63, 8);
+padding: 5px;
+width: 30%;
+margin: 35px;
+border-right: 5px solid blue;
+border-left: 5px solid yellow;
+border-top: 5px solid green;
+border-block-end: 5px solid rgb(216, 164, 20);
+border-radius: 5px;
+}
+.container-fluid{
+    background-color:rgb(182, 33, 33);
+}
+nav{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+nav ul{
+display: flex;
+}
+
+.nav ul li {
+padding: 5px 90px 15px 90px;
+text-align: center;
+list-style-type: none;
+margin:0 10px;
+}
+.nav ul li:hover{
+text-decoration: rgb(197, 63, 63);
+}
+
+body {
+background: url(../img/valorant.jpg);
+background-position: center;
+}
+/* Estilos para dispositivos móviles */
+@media (max-width: 576px) {
+    .container {
+        padding: 10px;
+    }
+    .caja {
+        width: 80%;
+        margin: 20px auto;
+    }
+    .nav ul li {
+        padding: 5px 30px;
+    }
+    .my-form {
+        width: 100%;
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width: 577px) and (max-width: 1023px) {
+    .caja {
+        width: 45%;
+        margin: 20px;
+    }
+    .linkredes {
+        flex-direction: column;
+    }
+}
+
+/* Estilos para pantallas más grandes */
+@media (min-width: 1024px) {
+    .nav ul li {
+        padding: 5px 90px 15px;
+    }
+}
+
+.juego {
+text-align: center;
+background-color: black;
+color: white;
+}
+
+.aprende {
+background-color: black;
+color: white;
+}
+
+.descargar {
+background-color: black;
+color: white;
+}
+
+.redes {
+background-color: black;
+color: white;
+}
+
+.ubi {
+text-align: center;
+background-color: black;
+color: white;
+}
+
+.mapa {
+background-color: black;
+color: white;
+}
+
+.armas {
+background-color: black;
+color: white;
+}
+
+.multimedia {
+background-color: black;
+color: white;
+}
+
+.agentes {
+background-color: black;
+color: white;
+}
+
+.body {
+display: flex;
+}
+
+.Modo {
+background-color: black;
+color: white;
+margin-left: 10px;
+text-align: center;
+font-size: 10px;
+}
+
+.fondoss { 
+display: inline;
+}
+
+.primer {
+margin: 0 auto;
+
+}
+
+.responsive-video-container {
+    max-width: 70%;
+    height: 0;
+    padding-bottom: 39.375%; /* Relación de aspecto 16:9 para un tamaño reducido en un 30% */
+    position: relative;
+}
+
+.responsive-video-container iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height:100%;
+}
+
+.linki {
+display: grid;
+}
+
+.linkredes {
+display: grid;
+}
+
+.piee {
+margin-bottom: 50px;
+}
+
+.astra {
+margin: 35px;
+display: grid;
+}
+
+.gallery {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.gallery img {
+max-width: 100%;
+margin-bottom: 20px;
+}
+
+.piee {
+background-color: #f1f1f1;
+padding: 20px;
+}
+
+.my-form {
+font-family: Arial, sans-serif;
+}
+
+.form-legend {
+font-size: 20px;
+color: white;
+margin-bottom: 10px;
+}
+
+.form-group {
+margin-bottom: 15px;
+}
+
+.label-white {
+color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+.municion{ 
+margin: 25px;
+display: grid;
+}
+
+a {
+transition: background-color .5s;
+}
+
+a:hover {
+background-color: rgb(14, 12, 12);
+}
+li:hover{
+    background-color: rgb(12, 11, 11);
+}
+.colorfondo{
+    color: white;
+}
+
+.tituloagente{
+    color: white;
+}
+.colorarmas{
+    color: white;
+}
+.colorredes{
+    color: white;
+}
+.modosdejuego{
+    color: white;
+}
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+.map-container {
+position: relative;
+width: 100%;
+padding-bottom: 56.25%; /* Proporción 16:9 (56.25% = 9/16 * 100) */
+height: 0;
+overflow: hidden;
+}
+
+.map-container iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 1350px;
+height: 500px;
+}
